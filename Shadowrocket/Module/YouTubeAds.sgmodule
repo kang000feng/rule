@@ -1,5 +1,5 @@
 #!name=YouTube去广告
-#!desc=仅用于视频广告
+#!desc=k自用的仅用于视频广告
 
 [URL Rewrite]
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 302
